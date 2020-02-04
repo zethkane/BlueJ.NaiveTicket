@@ -19,6 +19,8 @@ public class TicketMachine
     private Integer total;
     // The number of tickets printed.
     private Integer ticketNumber;
+    
+    private int status;
 
     /**
      * Create a machine that issues tickets of the given price.
@@ -32,7 +34,7 @@ public class TicketMachine
         total = 0;
         ticketNumber = 0;
     }
-
+   
     /**
      * Return the price of a ticket.
      */
